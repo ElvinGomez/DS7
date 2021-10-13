@@ -1,9 +1,10 @@
 <?php
     session_start();
-    $user =  $_SESSION["usuario"];
-
-    if($user === '' || !$user) {
-        header("Location: index.php");
+    if(isset($_SESSION["usuario"])) {
+        $user =  $_SESSION["usuario"];
+        if($user === '' || !$user) {
+            header("Location: index.php");
+        }
     }
 ?>
 
