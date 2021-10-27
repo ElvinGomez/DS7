@@ -11,7 +11,7 @@
 <head>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <!-- <script src="https://unpkg.com/tailwindcss-jit-cdn"></script> -->
+    
     <style>
       :root {
           --main-color: #4a76a8;
