@@ -143,6 +143,7 @@
                                   }
   ?>
                                   </select>
+                                  <button class="p-2 pl-2 pr-2 bg-transparent border-2 border-green-400 text-green-400 text-ls rounded-lg transition-colors duration-700 transform hover:bg-green-400 hover:text-gray-100 focus:border-4 focus:border-indigo-300">Seleccionar</button>
                                 </form>
                               </div>
                             </div>
@@ -155,6 +156,7 @@
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
 
