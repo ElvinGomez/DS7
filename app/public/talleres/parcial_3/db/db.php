@@ -25,7 +25,7 @@ class db {
             try{ 
                 $stmt = $this->database->prepare($query); 
                 $stmt->execute($params);
-                return $stmt->fetch();  
+                return $stmt->fetchAll(PDO::FETCH_UNIQUE|PDO::FETCH_ASSOC);  
                 }catch(PDOException $e){
                 throw new Exception($e->getMessage());
             }
