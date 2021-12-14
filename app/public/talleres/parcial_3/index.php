@@ -138,7 +138,6 @@
                                 <from class="relative">
                                   <select name="show_more" id="tables_selection" />';
                                   foreach($results as $table){
-                                    //Print the table name out onto the page.
                                     echo '<option value="'.$table[0].'">'.$table[0].'</option>';
                                   }
 ?>
@@ -163,84 +162,8 @@
                                             <tr id="table_header">
                                             </tr>
                                             </thead>
-
                                             <tbody id="table_body">
-                                            <!-- <tr>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700 ">
-                                                /argon/
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 ">
-                                                4,569
-                                                </td>
-                                                <td class="border-t-0 px-6 align-center border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                340
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                46,53%
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700">
-                                                /argon/index.html
-                                                </th>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                3,985
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                319
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                                                46,53%
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700">
-                                                /argon/charts.html
-                                                </th>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                3,513
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                294
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                                                36,49%
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700">
-                                                /argon/tables.html
-                                                </th>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                2,050
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                147
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                <i class="fas fa-arrow-up text-emerald-500 mr-4"></i>
-                                                50,87%
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700">
-                                                /argon/profile.html
-                                                </th>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                1,795
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                190
-                                                </td>
-                                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                                                <i class="fas fa-arrow-down text-red-500 mr-4"></i>
-                                                46,53%
-                                                </td>
-                                            </tr> -->
                                             </tbody>
-
                                         </table>
                                         </div>
                                     </div>
