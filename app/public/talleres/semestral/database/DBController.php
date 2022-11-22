@@ -4,10 +4,10 @@
 class DBController extends PDO
 {
     // Database Connection Properties
-    protected $host = 'sql3.freemysqlhosting.net';
-    protected $user = 'sql3457968';
-    protected $password = 'NctgCVifbG';
-    protected $database = "sql3457968";
+    protected $host = '172.19.0.3';
+    protected $user = 'root';
+    protected $password = 'secret';
+    protected $database = "shopee";
     protected $port = 3306;
 
     // connection property
